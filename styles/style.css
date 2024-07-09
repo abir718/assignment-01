@@ -5,6 +5,9 @@
     font-variation-settings:
       "width" 100;
 }
+.all-text-color{
+    color:rgba(13, 19, 33, 0.7);
+}
 
 
 .upper-part button{
@@ -21,7 +24,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
+
+
 }
 .header-background{
     margin-top: 0px;
@@ -50,4 +54,41 @@
     color: aliceblue;
     background-color: rgb(13, 19, 33);
 
+}
+.section-div{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, white , rgb(247, 247, 247) );
+    width: 900px;
+    border-radius: 10px;
+    margin: auto;
+    
+}
+.learn-more{
+    width: 150px;
+    font-size: 20px;
+    font-weight: 600;
+    height: 40px;
+}
+.why-web-dev{
+    max-width: 1140px;
+    max-height: 1395px;
+    margin:auto;
+    margin-top: 150px;
+    background-color: rgb(247, 247, 247);
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.web-h1 , .web-p{
+    text-align: center;
+}
+.vector-text{
+    width: 477px;
+    height: 220px;
 }
