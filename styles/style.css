@@ -92,3 +92,24 @@
     width: 477px;
     height: 220px;
 }
+.youtube{
+    width: 1000px;
+    height: 550px;
+}
+.inspiration-section{
+    text-align: center;
+
+}
+.current-target{
+    text-align: center;
+}
+.target-div{
+    display: flex;
+    gap: 30px;
+    max-width: 1140px;
+    margin: auto;
+
+}
+.html{
+    
+}
