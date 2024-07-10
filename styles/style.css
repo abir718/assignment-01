@@ -5,6 +5,11 @@
     font-variation-settings:
       "width" 100;
 }
+.paragraph{
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 400;
+    font-size: 18px;
+}
 .all-text-color{
     color:rgba(13, 19, 33, 0.7);
 }
@@ -71,22 +76,28 @@
     font-size: 20px;
     font-weight: 600;
     height: 40px;
+
 }
 .why-web-dev{
     max-width: 1140px;
     max-height: 1395px;
     margin:auto;
-    margin-top: 150px;
+    margin-top: 120px;
     background-color: rgb(247, 247, 247);
-    padding-top: 50px;
+    padding-top: 20px;
     padding-left: 100px;
     padding-right: 100px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding-bottom: 20px;
 }
 .web-h1 , .web-p{
     text-align: center;
+
+}
+.web-h1{
+    font-size: 34px;
 }
 .vector-text{
     width: 477px;
@@ -158,11 +169,77 @@ display: flex;
 align-items: center;
 gap: 40px;
 justify-content: space-between;
-border: 3px black solid;
+border: 2px rgba(0, 0, 0, 0.3) solid;
 border-radius: 20px;
 padding-left: 20px;
-
+margin-top: 20px;
 }
 .next-target-text{
     text-align: center;
+    
+}
+.next-target-text h1{
+    font-size: 34px;
+
+}
+
+.footer-section{
+    margin-top: 60px;
+
+}
+.bottom-section{
+    margin: auto;
+    max-width: 1140px;
+    background-image: url(/images/handshake.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-position: center;
+    margin-top: 50px;
+    border-radius: 10px;
+
+
+}
+.bottom-section-p , .bottom-section-h1{
+    color: white;
+    
+}
+.bottom-section-h1{
+    font-size: 30px;
+}
+
+.bottom-input{
+    width: 380px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    font-size: 17px;
+
+}
+.bottom-button{
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+.footer-icons{
+    display: flex;
+    gap: 24px;
+}
+.footer-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 370px;
+}
+.footer-section{
+    background-color: rgb(240, 240, 240);
 }
