@@ -35,7 +35,6 @@
 
 }
 .header{
-    margin-top: 0px;
     background-image: url(../images/Hero-bg.png);
     height: 652px;
     display: flex;
@@ -202,8 +201,8 @@ margin-top: 20px;
     margin: auto;
     max-width: 1140px;
     background-image: url(../images/handshake.jpg);
-    background-size: contain;
-    
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
     height: 300px;
